@@ -40,7 +40,7 @@ public class AugmentedImageRenderer {
 
   public void createOnGlThread(Context context) throws IOException {
     objRender.createOnGlThread(
-            context, "models/voropointsJ.obj", "models/frame_base.png");
+            context, "models/voropointsJ.obj", "models/blank_texture.png");
     objRender.setMaterialProperties(0.0f, 3.5f, 1.0f, 6.0f);
     objRender.setBlendMode(BlendMode.AlphaBlending);
   }
